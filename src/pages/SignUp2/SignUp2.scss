@@ -1,0 +1,135 @@
+.container-3 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: #f5f6f8;
+  margin: 105px 459px;
+  width: auto;
+
+  @media only screen and (max-width: 1024px) {
+    margin: 95px 159px;
+    // width: 422px;
+  }
+  @media only screen and (max-width: 600px) {
+    margin: 32px 54px;
+  }
+  @media only screen and (max-width: 414px) {
+    margin: 16px 25px;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-direction: row;
+    margin-bottom: 8px;
+  }
+
+  .flex-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 8px;
+  }
+
+  .form-section {
+    padding: 40px 40px;
+    background: #fff;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    .color {
+      color: #039bf0;
+    }
+    .header {
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .p-1 {
+      color: #606060;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .divide {
+      width: 442px;
+      border-top: 2px solid #f5f6f8;
+      margin-bottom: 24px;
+    }
+    .h2 {
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .labels {
+      color: #1a1619;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    .input-fields {
+      width: 93%;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      padding: 15px 12px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .a {
+      width: 83%;
+    }
+    .b {
+      width: 100%;
+    }
+    .c {
+      width: 83%;
+    }
+
+    .one {
+      width: 35%;
+    }
+    .two {
+      width: 50%;
+    }
+  }
+  .footer-btn {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+    .btn {
+      padding: 16px 100px;
+      color: #fff;
+      text-align: center;
+      font-family: Rubik;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      justify-content: center;
+      border-radius: 4px;
+      background: #039bf0;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    }
+    p {
+      color: #808080;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}
